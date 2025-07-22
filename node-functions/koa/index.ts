@@ -53,4 +53,4 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 // 导出处理函数
-export const onRequest = createEdgeOneHandler(app); 
+export default app;
